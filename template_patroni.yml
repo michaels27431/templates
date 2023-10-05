@@ -187,10 +187,6 @@ objects:
           emptyDir: {}
     updateStrategy:
       type: OnDelete
-- apiVersion: v1
-  kind: ServiceAccount
-  metadata:
-    name: ${SERVICE_ACCOUNT}
 - apiVersion: rbac.authorization.k8s.io/v1
   kind: Role
   metadata:
